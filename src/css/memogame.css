@@ -1,0 +1,57 @@
+/* FONT */
+@font-face {
+    font-family: Mickey;
+    src: url('../fonts/mickey-webfont.woff');
+}
+
+/* BACKGROUND */
+body, html, *{
+	margin : 0;
+	padding: 0;
+}
+body{
+	background: url('../img/memory.jpg') top no-repeat fixed #333;
+	background-size: cover; 
+}
+/* HEADER */
+header h1{
+	text-align: center;
+	font-family: Mickey;
+	color: #FFF;
+	font-size: 50px;
+	margin-top: 30px;
+}
+/* FOOTER */
+footer h1{
+	text-align: center;
+	font-family: Mickey;
+	color: #FFF;
+	font-size: 40px;
+}
+/* CARDSBOARD */
+.content{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.content .cardsBoard{
+	display: inline-block;
+	padding : 8px;
+	background: #666;
+}
+
+.cardsBoard .card{
+	margin-right: 6px;
+	display: inline-block;
+	background: #333;
+	width: 117px;
+	height: 116px;
+}
+
+.cardsBoard .card img{
+	display: none;
+}
+.cardsBoard .last{
+	margin-right : 0;
+}
