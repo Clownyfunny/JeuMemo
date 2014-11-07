@@ -51,6 +51,10 @@ footer h1{
 	height: 116px;
 }
 
+.cardsBoard .disable{
+	background: #FFF;
+}
+
 .cardsBoard .card img{
 	display: none;
 }
