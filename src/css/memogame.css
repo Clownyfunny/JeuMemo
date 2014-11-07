@@ -4,11 +4,6 @@
     src: url('../fonts/mickey-webfont.woff');
 }
 
-/* BACKGROUND */
-body, html, *{
-	margin : 0;
-	padding: 0;
-}
 body{
 	background: url('../img/memory.jpg') top no-repeat fixed #333;
 	background-size: cover; 

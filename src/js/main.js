@@ -38,14 +38,14 @@ $(document).ready(function(){
 						arrayTamp[1].addClass("disable").off('click');
 						arrayTamp[0].addClass("disable").off('click');
 						arrayTamp = [];
-					}, 1000);
+					}, 500);
 				}
 				else {
 					setTimeout(function() {
 			          arrayTamp[1].children().hide();
 			          arrayTamp[0].children().hide();
 			          arrayTamp = [];	
-			        }, 1000);
+			        }, 500);
 				}
 			}
 		}		
